@@ -6,15 +6,21 @@
 
 // Document Ready Function. All of your jQuery should go in here. 
 $( document ).ready(function() {
-  
-
-
-
 });
-
-
+function buttonClicked(){
+	var sentence = $("#userinput").val();
+	var result = piglatinize(sentence);
+	alert(result);
+}
 // Create the wordToPigLatin function that takes a word as a parameter and returns a transfromed word. 
-
+function piglatinize(input)
+{
+	if(sinput[0].match(/[aeiouAEIOU]/)){
+	return(input + "way ");
+	}
+	else(input[0].match(/[bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ]/))
+	return(input.slice(1,input.length) + input[0] + "ay ");
+}
 
 
 

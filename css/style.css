@@ -1,1 +1,13 @@
+body{
+    background-color: pink; 
+}
 
+#tittlebox {
+    margin: auto;
+    font-style: Normal;
+    width: 50%;
+    height: 20%;
+    background-color: purple;
+    margin-top: 50px;
+    border-radius: 15px; 
+}
